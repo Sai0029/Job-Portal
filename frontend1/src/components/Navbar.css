@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Align logo and links */
+    align-items: center; /* Center items vertically */
+    background-color: #ffffff; /* White background */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+}
+
+.navbar-logo {
+    width: 200px; /* Logo width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullets from list */
+    display: flex; /* Align items in a row */
+    align-items: flex-start; /* Align items at the start for better control */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between links */
+    margin-top: 5px; /* Move "Contact" down slightly */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark color for text */
+    font-size: 18px; /* Increase font size */
+    padding: 10px 15px; /* Add padding for better clickable area */
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Change color on hover */
+}

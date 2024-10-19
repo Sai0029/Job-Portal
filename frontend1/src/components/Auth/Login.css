@@ -1,0 +1,61 @@
+/* Login.css */
+
+.login-page {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60vh; /* Full viewport height */
+    background-color: #ffffff; /* Optional: Add background color */
+}
+
+.form_container {
+    flex: 1;
+    max-width: 400px; /* Adjust as necessary */
+    margin: auto; /* Center the form */
+    padding: 20px; /* Padding inside the form */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative; /* For absolute positioning of elements if needed */
+}
+
+.form_container h2 {
+    text-align: center; /* Center heading */
+}
+
+.form_group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+input:focus {
+    border-color: #007bff; /* Border color on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding */
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.redirect_text {
+    text-align: center; /* Center the redirect text */
+    margin-top: 10px; /* Space above text */
+}

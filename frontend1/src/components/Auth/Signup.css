@@ -1,0 +1,114 @@
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px; /* Space between columns */
+}
+
+.job-portal-info {
+    flex: 1;
+    padding-right: 20px; /* Space between columns */
+}
+
+.job-portal-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.job-portal-info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.signup-form {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for better contrast */
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center; /* Center the form title */
+}
+
+.signup-form form div {
+    margin-bottom: 15px;
+}
+
+.signup-form label {
+    display: flex;
+    align-items: center;
+    font-weight: bold; /* Make labels bold */
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px; /* Increased padding for better touch area */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Uniform font size */
+}
+
+.signup-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    font-size: 16px; /* Increased font size */
+}
+
+.signup-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px; /* Reduced font size for terms */
+}
+
+.terms a {
+    color: #007bff;
+    text-decoration: none; /* Remove underline from link */
+}
+
+.terms a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+.otp-verification {
+    margin-top: 20px; /* Space before OTP verification section */
+    text-align: center; /* Center align OTP verification */
+}
+
+.success, .error {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Space above success/error messages */
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+.already-registered {
+    margin-top: 15px; /* Space above the already registered line */
+    text-align: center; /* Center align the text */
+    font-size: 14px; /* Font size for better visibility */
+}

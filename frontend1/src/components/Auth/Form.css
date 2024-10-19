@@ -1,0 +1,55 @@
+/* src/styles/Form.css */
+.form-container {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 600px;  /* Increased max-width for better form size */
+    padding: 2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Ensure form fields are stacked vertically */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Adjust textarea for better height */
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Align the button properly */
+.btn {
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
